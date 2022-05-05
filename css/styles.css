@@ -80,9 +80,11 @@ p {
 
 @media (max-width: 1028px) {
   .iphone{
-    position: static;
+    position: relative;
     transform: none;
     margin: auto;
+    width: 175%;
+    right: 38%;
   }
 
   .container-fluid {
